@@ -17,6 +17,7 @@ import java.util.Scanner;
 public class Coding_Test02 {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		Scanner scan = new Scanner(System.in);
 		System.out.println("범위 숫자들의 합계값을 구하고 싶은 양의 정수값을 입력해 주세요==> ");
 		int inputInt = scan.nextInt();
@@ -28,5 +29,15 @@ public class Coding_Test02 {
 		}
 		System.out.println("1부터 " + inputInt + "까지의 합 = " + hap);
 		
+=======
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("정수를 입력하세요 ==> ");
+		int inputInt = scanner.nextInt();
+		int hap=0;
+		for(int i=1;i<=inputInt;i++) {
+			hap += i;
+		}
+		System.out.println("1부터 " + inputInt + "까지의 합 = "+hap);
+>>>>>>> fc24a11... first eclipse commit
 	}
 }

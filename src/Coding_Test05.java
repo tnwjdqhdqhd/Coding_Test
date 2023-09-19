@@ -13,6 +13,7 @@ import java.util.Scanner;
 
 public class Coding_Test05 {
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		
 		// String [] str = {"식당", "치과", "학원", "회사", "스터디 카페"};
 		
@@ -47,5 +48,32 @@ public class Coding_Test05 {
 
 
 
+=======
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("원하는 층을 입력하세요 ==> ");
+		int button = scanner.nextInt();
+		String comment;
+		switch (button) {
+		case 1:
+			comment = "1층은 식당";
+			break;
+		case 2:
+			comment = "2층은 치과";
+			break;
+		case 3:
+			comment = "3층은 학원";
+			break;
+		case 4:
+			comment = "4층은 회사";
+			break;
+		case 5:
+			comment = "5층은 스터디카페";
+			break;
+		default:
+			comment = "없는 층수";
+			break;
+		}
+		System.out.println(comment+"입니다!");
+>>>>>>> fc24a11... first eclipse commit
 	}
 }

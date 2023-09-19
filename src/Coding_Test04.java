@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class Coding_Test04 {
 	public static void main(String[] args) {
 		
+<<<<<<< HEAD
 		Scanner scan = new Scanner(System.in);
 		System.out.println("첫 번째 수를 입력해 주세요==>");
 		int num1 = scan.nextInt();
@@ -25,6 +26,23 @@ public class Coding_Test04 {
 			System.out.println("두 입력값 중 " + num2 + "이 더 큽니다.");
 		}
 		
+=======
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("첫번째 수를 입력해 주세요 ==> ");
+		int num1 = scanner.nextInt();
+		System.out.print("두 번째 수를 입력해 주세요 ==> ");
+		int num2 = scanner.nextInt();
+		if(num1>num2) {
+			System.out.println("첫번째 입력값 "+num1+"이 더 큽니다");
+		}
+		else if (num1<num2) {
+			System.out.println("두번째 입력값 "+num2+"이 더 큽니다");
+		}
+		else {
+			System.out.println("두 수는 같습니다.");
+		}
+>>>>>>> fc24a11... first eclipse commit
 	}
 }
 

@@ -16,6 +16,7 @@ Q3. 배열을 활용하여, Scanner 클래스 활용 아이디를 입력 받아�
 
 public class Coding_Test03 {
 	public static void main(String[] args) {
+<<<<<<< HEAD
 
 		Scanner scan = new Scanner(System.in);
 		String[] id = {"장나라", "전지현", "김다미"};
@@ -48,6 +49,24 @@ public class Coding_Test03 {
 
 
 
+=======
+		String[] id = {"장나라","전지현","김다미"};
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("아이디를 입력해 주세요 ==> ");
+		String id_input = scanner.next();
+		int check = 0;
+		for(int i=0;i<id.length;i++) {
+			if(id_input.equals(id[i])) {
+				check = 1;
+			}
+		}
+		if(check==1) {
+			System.out.println(id_input+"님 환영합니다.");
+		}
+		else {
+			System.out.println("아이디가 존재하지 않습니다.");
+		}
+>>>>>>> fc24a11... first eclipse commit
 	}
 }
 

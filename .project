@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Team_CodingTest</name>
+=======
+	<name>JAVA_Coding_Test</name>
+>>>>>>> fc24a11... first eclipse commit
 	<comment></comment>
 	<projects>
 	</projects>

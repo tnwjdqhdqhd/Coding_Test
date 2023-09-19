@@ -9,6 +9,7 @@
 public class Coding_Test08 {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 
 		for (int i = 0; ; i++) {
 			if (i%2==1) { // 만약에 (if문), 홀수일 경우 (i%2 == 1)
@@ -19,6 +20,19 @@ public class Coding_Test08 {
 			}
 			System.out.println(i + " ");
 		}
+=======
+		for(int i=0;i<=10;i++) {
+			if(i%2!=0) {
+				continue;
+			}
+			if(i==10) {
+				System.out.print(i);
+				break;
+			}
+			System.out.print(i+", ");
+		}
+		
+>>>>>>> fc24a11... first eclipse commit
 
 
 	

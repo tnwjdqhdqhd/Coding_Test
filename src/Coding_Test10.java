@@ -23,6 +23,7 @@ Q10. while문을 사용하여, Scanner 클래스 활용
 public class Coding_Test10{
 	public static void main(String[] args) {
 
+<<<<<<< HEAD
 //		Scanner scan = new Scanner(System.in);
 //		System.out.println("보고 싶은 구구단의 단을 입력하세요==>");
 //		int num = scan.nextInt();
@@ -45,6 +46,19 @@ public class Coding_Test10{
 			times++;
 		}
 		scanner.close();
+=======
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("정수를 입력하세요 ==> ");
+		int num = scanner.nextInt();
+		int i=1;
+		System.out.println(num+"단입니다.");
+		while(i<10) {
+			System.out.println(num+" x "+i+" = "+num*i);
+			i++;
+		}
+
+>>>>>>> fc24a11... first eclipse commit
 
 	}
 }

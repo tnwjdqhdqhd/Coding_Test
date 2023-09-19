@@ -10,6 +10,7 @@ public class Coding_Test09 {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
+<<<<<<< HEAD
 		System.out.println("3의 배수값을 알고 싶은 입력값을 입력해주세요==>");
 		int num = scanner.nextInt();
 		
@@ -20,6 +21,17 @@ public class Coding_Test09 {
 			System.out.println("실행 결과 = " + i);
 		}
 		
+=======
+		
+		System.out.print("정수를 입력하세요 ==> ");
+		int num = scanner.nextInt();
+		for(int i=1;i<=num;i++) {
+			if(i%3==0) {
+				System.out.println(i+" ");
+			}
+		}
+
+>>>>>>> fc24a11... first eclipse commit
 
 	}
 }
